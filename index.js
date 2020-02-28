@@ -31,7 +31,7 @@ app.get('/instagram/video', insta_video);
  */
 app.get('/instagram/image', insta_image);
 
-const port = 8080;
-app.listen(process.env.port || port, ()=>{
+const port = 3000;
+app.listen(process.env.PORT || port, ()=>{
     console.log("Server running at "+port);
 });
